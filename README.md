@@ -34,25 +34,37 @@ A smart book recommendation system that understands **natural language queries**
 > “Short bedtime story about kindness”
 
 ---
--Text data cleaning (code in the notebook data-exploration.ipynb)
--Semantic (vector) search and how to build a vector database (code in the notebook vector-search.ipynb). This allows users to find the most similar books to a natural language query (e.g., "a book about a person seeking revenge").
--Doing text classification using zero-shot classification in LLMs (code in the notebook text-classification.ipynb). This allows us to classify the books as "fiction" or "non-fiction", creating a facet that users can filter the books on.
--Doing sentiment analysis using LLMs and extracting the emotions from text (code in the notebook sentiment-analysis.ipynb). This will allow users to sort books by their tone, such as how suspenseful, joyful or sad the books are.
--Creating a web application using Gradio for users to get book recommendations (code in the file gradio-dashboard.py).
+Text data cleaning
+(code in the notebook data-exploration.ipynb)
 
+Semantic (vector) search & vector database
+(code in vector-search.ipynb)
+→ Enables users to search with queries like:
+"a book about a person seeking revenge"
+
+Zero-shot text classification using LLMs
+(code in text-classification.ipynb)
+→ Classifies books as "fiction" or "non-fiction" to enable faceted filtering
+
+Sentiment analysis & emotion extraction
+(code in sentiment-analysis.ipynb)
+→ Lets users sort books by tone: suspenseful, joyful, sad, etc.
+
+Gradio web app for recommendations
+(code in gradio-dashboard.py)
 the following dependencies are required:
 
--kagglehub
--pandas
--matplotlib
--seaborn
--python-dotenv
--langchain-community
--langchain-opencv
--langchain-chroma
--transformers
--gradio
--notebook
--ipywidgets
+kagglehub
+pandas
+matplotlib
+seaborn
+python-dotenv
+langchain-community
+langchain-opencv
+langchain-chroma
+transformers
+gradio
+notebook
+ipywidgets
 
 
