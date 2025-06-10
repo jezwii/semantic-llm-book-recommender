@@ -1,0 +1,15 @@
+gradio
+pandas
+matplotlib
+seaborn
+langchain
+langchain-community
+langchain-chroma
+langchain-openai
+langchain-huggingface
+langchain-text-splitters
+transformers
+kagglehub
+python-dotenv
+ipywidgets
+notebook
