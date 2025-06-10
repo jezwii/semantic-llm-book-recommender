@@ -34,51 +34,42 @@ A smart book recommendation system that understands **natural language queries**
 > “Short bedtime story about kindness”
 
 ---
-Text data cleaning
-Code in: data-exploration.ipynb
+- **Text data cleaning**  
+  Code in: `data-exploration.ipynb`
 
-Semantic (vector) search
-Code in: vector-search.ipynb
-Allows users to find the most similar books to a natural language query (e.g., "a book about a person seeking revenge").
+- **Semantic (vector) search**  
+  Code in: `vector-search.ipynb`  
+  Allows users to find the most similar books to a natural language query (e.g., *"a book about a person seeking revenge"*).
 
-Zero-shot text classification using LLMs
-Code in: text-classification.ipynb
-Automatically classifies books as fiction or non-fiction, enabling filtering.
+- **Zero-shot text classification using LLMs**  
+  Code in: `text-classification.ipynb`  
+  Automatically classifies books as *fiction* or *non-fiction*, enabling filtering.
 
-Sentiment analysis and emotion extraction
-Code in: sentiment-analysis.ipynb
-Sort books by tone such as suspenseful, joyful, or sad.
+- **Sentiment analysis and emotion extraction**  
+  Code in: `sentiment-analysis.ipynb`  
+  Sort books by tone such as *suspenseful*, *joyful*, or *sad*.
 
-Gradio-based web application
-Code in: gradio-dashboard.py
-Provides a simple UI to get real-time book recommendations.
+- **Gradio-based web application**  
+  Code in: `gradio-dashboard.py`  
+  Provides a simple UI to get real-time book recommendations.
 
-📦 Required Dependencies
+---
+
+## 📦 Required Dependencies
+
 These libraries are used throughout the project:
 
-kagglehub
-
-pandas
-
-matplotlib
-
-seaborn
-
-python-dotenv
-
-langchain-community
-
-langchain-opencv
-
-langchain-chroma
-
-transformers
-
-gradio
-
-notebook
-
-ipywidgets
-
+- `kagglehub`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `python-dotenv`
+- `langchain-community`
+- `langchain-opencv`
+- `langchain-chroma`
+- `transformers`
+- `gradio`
+- `notebook`
+- `ipywidgets`
 
 
